@@ -7,6 +7,6 @@ import com.google.firebase.messaging.RemoteMessage
 class MyFirebaseMessagingService: FirebaseMessagingService() {
     override fun onMessageReceived(message: RemoteMessage) {
         super.onMessageReceived(message)
-        Log.d("TAG2", message.toString())
+        Log.d("TAG1", message.toString())
     }
 }
